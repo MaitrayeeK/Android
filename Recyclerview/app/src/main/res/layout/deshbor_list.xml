@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/small_Radius"
+            android:id="@+id/cv_imagscroll"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="@dimen/_margin_half"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingVertical="@dimen/_padding_mid_desh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageview"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:src="@drawable/ic_analytics"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_margin_mid_mid"
+                    android:gravity="center"
+                    android:textSize="@dimen/large_text"
+                    android:textStyle="bold"
+                    tools:text="@string/txt_portable"
+                    tools:ignore="SpUsage" />
+
+                <TextView
+                    android:id="@+id/tv_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_margin_mid_mid"
+                    android:textSize="@dimen/small_text_one"
+                    android:layout_marginHorizontal="@dimen/_margin_half_desh"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:text="@string/txt_portable_message"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+</layout>

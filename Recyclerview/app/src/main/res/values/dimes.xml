@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="_margin_mid">24dp</dimen>
+    <dimen name="_margin_mid_">22dp</dimen>
+    <dimen name="_margin_mid_mid">8dp</dimen>
+    <dimen name="_margin_mid_half">10dp</dimen>
+    <dimen name="_margin_half_half_mid">6dp</dimen>
+    <dimen name="_margin_half_mid">12dp</dimen>
+    <dimen name="_margin_half">15dp</dimen>
+    <dimen name="_margin_full_">26dp</dimen>
+    <dimen name="_margin_full_full">80dp</dimen>
+    <dimen name="_margin_full_hed">52dp</dimen>
+    <dimen name="_margin_full_half">55dp</dimen>
+    <dimen name="_margin_half_full">28dp</dimen>
+    <dimen name="_margin_half_desh">41dp</dimen>
+    <dimen name="_margin_half_half">4dp</dimen>
+
+    <dimen name="_padding">16dp</dimen>
+    <dimen name="_padding2">32dp</dimen>
+    <dimen name="_padding_mid">24dp</dimen>
+    <dimen name="_padding_mid_desh">20dp</dimen>
+    <dimen name="_padding2_mid">44dp</dimen>
+    <dimen name="_padding_double">64dp</dimen>
+
+    <dimen name="small_text">13dp</dimen>
+    <dimen name="small_text_one">14dp</dimen>
+    <dimen name="medium_text">16dp</dimen>
+    <dimen name="large_text">19dp</dimen>
+    <dimen name="large_text_phone">35dp</dimen>
+    <dimen name="xlarge_text">22dp</dimen>
+    <dimen name="xxlarge_text">24dp</dimen>
+    <dimen name="xxxlarge_text">26dp</dimen>
+
+    <dimen name="small_Radius">10dp</dimen>
+
+    <dimen name="lay_hight">200dp</dimen>
+
+
+
+</resources>

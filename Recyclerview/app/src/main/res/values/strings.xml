@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+    <string name="txt_portable">Brake boss portable</string>
+    <string name="txt_portable_message">The Brake-Boss portable air brake tester is a flexibile solution for your yard. Controlled directly on the portable device or with the Brake-Boss app.</string>
+
+</resources>
